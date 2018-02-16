@@ -1,0 +1,16 @@
+{
+  "name": "screeps-to-telegraf",
+  "version": "0.0.1",
+  "description": "an exporter for screeps stats using nodejs and node-screeps-api, intended to export data to a telegraf instance for use with influxdb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pokemane",
+  "license": "ISC",
+  "dependencies": {
+    "influx": "^5.0.7",
+    "lodash": "^4.17.5",
+    "screeps-api": "^1.4.0"
+  }
+}
